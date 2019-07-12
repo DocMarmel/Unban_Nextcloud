@@ -1,1 +1,0 @@
-<h1>Page de l'utilisateur banni</h1>
