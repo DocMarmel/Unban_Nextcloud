@@ -8,8 +8,11 @@
  * it's instantiated in there
  */
 return [
+    'resources' => [
+        'unban' => ['url', '/unban']
+    ],
+
     'routes' => [
-	   ['name' => 'page#index', 'url' => '/', 'verb' => 'GET'],
-	   ['name' => 'page#do_echo', 'url' => '/echo', 'verb' => 'POST'],
+	   ['name' => 'unban#index', 'url' => '/unban/showBan', 'verb' => 'GET']
     ]
 ];

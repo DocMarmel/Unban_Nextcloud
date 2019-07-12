@@ -18,7 +18,7 @@ class UnbanController extends Controller {
 	 * @NoAdminRequired
 	 * @NoCSRFRequired
 	 */
-	public function index() {
+	public function index(){
 		return new TemplateResponse('unban', 'index');  // templates/index.php
     }
     
