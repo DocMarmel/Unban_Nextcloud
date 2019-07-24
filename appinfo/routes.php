@@ -9,10 +9,9 @@
  */
 return [
     'routes' => [
-	   ['name' => 'page#index', 'url' => '/', 'verb' => 'GET'],
+        ['name' => 'page#index', 'url' => '/', 'verb' => 'GET'],
        
-       ['name' => 'unban#index', 'url' => '/unban', 'verb' => 'GET'],
-	   ['name' => 'unban#show', 'url' => '/unban/{id}', 'verb' => 'GET'],
-	   ['name' => 'unban#delete', 'url' => '/unban/{id}', 'verb' => 'DELETE'],
+        ['name' => 'unban#index', 'url' => '/unban', 'verb' => 'GET'],
+	    ['name' => 'unban#delete', 'url' => '/unban/{id}', 'verb' => 'GET'],
     ]
 ];
